@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family= Signika+Negative:wght@700 & display =swap");
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: #1c1c1c;
+  color: whitesmoke;
+  margin: 70px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #0e1d2f;
+  padding: 64px;
+}
+.cabeçalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 8px 8px 8px #0e1d2f;
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.tema button {
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  background: #1c1c1c;
+  color: whitesmoke;
+  border-color: whitesmoke;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: #4682b4;
+  border-radius: 30px;
+  color: #1c1c1c;
+  margin-top: 40px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 0, 42);
+}
+.projeto-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+.projeto-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 16px;
+}
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+.dark .container {
+  background: azure;
+  color: #1c1c1c;
+}
+.dark .projetos {
+  background: linear-gradient(236.85deg, #b0c4de 27.26%, #87ceeb 96.03%);
+}
+.dark .tema button {
+  background: whitesmoke;
+  color: #1c1c1c;
+  border-color: #1c1c1c;
+  box-shadow: 2px 2px 4px rgba(16, 16, 0, 42);
+}
+.icones {
+  display: flex;
+  flex-direction: column;
+  line-height: 2px;
+}
